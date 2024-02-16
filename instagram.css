@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main_box{
+    height: 400px;
+    width: 260px;
+    box-shadow: 0 0 2px rgb(106, 104, 104);
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-bottom: 15px;
+}
+
+.main_box .name{
+    height: 50px;
+    width: 174px;
+    position: relative;
+    margin: 40px 0;
+    left: 50px;
+    cursor: pointer;
+}
+
+.main_box .details .contact{
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    margin-bottom: 7px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    border: 1px solid rgb(203, 200, 200);
+    box-shadow: 0 0 1px rgb(203, 200, 200);
+}
+
+.main_box .details .password{
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    border: 1px solid rgb(203, 200, 200);
+    box-shadow: 0 0 1px rgb(203, 200, 200);
+}
+
+.main_box .details .lt_line{
+    position: relative;
+    bottom: 7px;
+    color: rgb(219, 219, 219);
+}
+
+.main_box .details .or{
+    position: relative;
+    left: 7px;
+    font-size: 13px;
+    color: rgb(115, 115, 115);
+}
+
+.main_box .details .rt_line{
+    position: relative;
+    bottom: 7.5px;
+    left: 14px;
+    color: rgb(219, 219, 219);
+}
+
+.main_box .details .login{
+    width: 271.33px;
+    height: 34px;
+    margin-bottom: 15px;
+    background-color: rgb(63, 173, 246);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid rgb(203, 200, 200);
+    box-shadow: 0 0 1px rgb(203, 200, 200);
+}
+
+.main_box .details .fb_login{
+    color: #385185;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+.main_box .details .forg_pass{
+    font-size: 12px;
+    color: rgb(0, 55, 107);
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    left: 85px;
+}
+
+.middle_box{
+    width: 350px;
+    height: 60px;
+    box-shadow: 0 0 2px rgb(106, 104, 104);
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.middle_box .mb_line{
+    position: relative;
+    top: 20px;
+}
+
+.middle_box .signup{
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-weight: 500;
+}
+
+.last_box{
+    font-size: 14px;
+    text-align: center;
+    margin: 30px;
+}
+
+.logos{
+    text-align: center;
+}
+
+.logos .google{
+    width: 154px;
+    height: 60px;
+    position: relative;
+    bottom: 19px;
+}
+
+.logos .microsoft{
+    width: 111px;
+    height: 40px;
+    position: relative;
+    bottom: 28px;
+    right: 5px;
+}
+
+.link_box{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+    margin: 7px;
+}
+
+.language_box{
+    text-align: center;
+    margin: 15px 7px 50px 7px;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+
+}
+
+.language_box i{
+    margin-left: 10px;
+}
+
+.language{
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+    border: none;
+}
